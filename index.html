@@ -1,0 +1,1446 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GLOWE</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <!-- ##NAV BAR -->
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-white py-3">
+  <div class="container-fluid">
+    <a class="navbar-brand fw-bold" href="#home">GLOWE</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0 gap-3">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#home">Home</a>
+        </li>
+        <li class="nav-item dropdown">
+    <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">
+        Skincare
+    </a>
+
+    <ul class="dropdown-menu">
+        <li><a class="dropdown-item" href="#skincare">Cleanser</a></li>
+        <li><a class="dropdown-item" href="#skincare">Serum</a></li>
+        <li><a class="dropdown-item" href="#skincare">Moisturizer</a></li>
+        <li><a class="dropdown-item" href="#skincare">Sunscreen</a></li>
+    </ul>
+</li>
+        <li class="nav-item dropdown">
+    <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">
+        Makeup
+    </a>
+
+    <ul class="dropdown-menu">
+        <li><a class="dropdown-item" href="#makeup">Foundation</a></li>
+        <li><a class="dropdown-item" href="#makeup">Lipstick</a></li>
+        <li><a class="dropdown-item" href="#makeup">Blush</a></li>
+        <li><a class="dropdown-item" href="#makeup">Mascara</a></li>
+    </ul>
+</li>
+        <li class="nav-item">
+          <a class="nav-link" href="#beautytips">Beauty Tips</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#about">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contact">Contact</a>
+        </li>
+       </ul>
+      <form class="d-flex">
+        <input class="form-control me-2" type="search" placeholder="Search products..." aria-label="Search">
+        <button class="btn btn-outline-dark" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
+
+
+<!-- ## HOME -->
+
+<div class="container-fluid p-0" id="home">
+
+    <div id="carouselExampleSlidesOnly"
+         class="carousel slide"
+         data-bs-ride="carousel">
+
+        <div class="carousel-inner">
+
+            <!-- IMAGE 1 -->
+            <div class="carousel-item active">
+
+                <img src="home3.jpg"
+                     class="d-block "
+                     style="height: 100vh; width: 100%;"
+                     alt="GLOWE">
+
+                <div class="carousel-caption text-start text-dark"
+                     style="left: 2%; top: 20%; right: auto; width: 35%;">
+
+                    <h6>WELCOME TO GLOWE</h6>
+
+                    <h1 class="display-3 fw-bold">
+                        Your Skin.<br>Your Glow.
+                    </h1>
+
+                    <p class="lead">
+                        Discover simple skincare and beauty essentials
+                        made for your everyday glow.
+                    </p>
+
+                    <a href="#skincare" class="btn btn-outline-dark me-2">
+                        Explore Skincare</a>
+                    
+
+                     <a href="#skincare"  class="btn btn-outline-dark">
+                        Explore Makeup</a>
+                    
+
+                </div>
+
+            </div>
+   
+            <!-- IMAGE 2 -->
+            <div class="carousel-item">
+
+                <img src="caro2.jpg"
+                     class="d-block "
+                     style="height: 100vh; width: 100%;"
+                     alt="GLOWE">
+
+                <div class="carousel-caption text-start"
+                     style="left: 2%; top: 20%; right: auto; width: 35%;">
+
+                    <h6>YOUR EVERYDAY GLOW</h6>
+
+                    <h1 class="display-3 fw-bold">
+                        Glow With<br>Confidence.
+                    </h1>
+
+                    <p class="lead">
+                        Simple skincare and makeup for every day.
+                    </p>
+
+                 <a href="#skincare"  class="btn btn-outline-dark me-2">
+                        Explore Skincare </a>
+
+                     <a href="#skincare"  class="btn btn-outline-dark">
+                        Explore Makeup </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+ <!-- SKINCARE -->
+  <div class="container-fluid" id="skincare" >
+    <div class="row p-5 ">
+
+        <div class="col-12 text-center">
+            <h1>Skincare</h1>
+            <p>
+                Simple skincare essentials for your everyday glow.
+            </p>
+        </div>
+
+    </div>
+</div>
+<!-- ##SKINCARE CARDS -->
+
+<div class="row p-4">
+
+    <!-- Cleanser -->
+    <div class="col-3 d-flex justify-content-center">
+
+        <div class="card" style="width: 18rem;">
+
+            <img src="cleanser.jpg"
+                 class="card-img-top"
+                 style="height: 250px; object-fit: cover;"
+                 alt="Cleanser">
+
+            <div class="card-body text-center">
+
+                <h5 class="card-title">Cleanser</h5>
+
+                <p class="card-text">
+                    Gentle cleanser for fresh and clean skin.
+                </p>
+
+                <button type="button"
+                        class="btn btn-primary"
+                        data-bs-toggle="modal"
+                        data-bs-target="#cleanserModal">
+                    Explore
+                </button>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- Cleanser Modal -->
+
+    <div class="modal fade" id="cleanserModal" tabindex="-1">
+
+        <div class="modal-dialog">
+
+            <div class="modal-content">
+
+                <div class="modal-header">
+
+                    <h5 class="modal-title">Cleanser</h5>
+
+                    <button type="button"
+                            class="btn-close"
+                            data-bs-dismiss="modal">
+                    </button>
+
+                </div>
+
+                <div class="modal-body">
+
+                    <img src="cleanser.jpg"
+                         class="img-fluid"
+                         alt="Cleanser">
+                <h5 class="mt-3">₹299</h5>
+
+                    <p class="mt-3">
+                        Gentle cleanser for fresh and clean skin.
+                    </p>
+
+                </div>
+
+                <div class="modal-footer">
+
+                    <button type="button"
+                            class="btn btn-secondary"
+                            data-bs-dismiss="modal">
+                        Close
+                    </button>
+
+                    <button type="button"
+                            class="btn btn-primary">
+                        Buy Now
+                    </button>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+    <!-- Serum -->
+    <div class="col-3 d-flex justify-content-center">
+
+        <div class="card" style="width: 18rem;">
+
+            <img src="serum.jpg"
+                 class="card-img-top"
+                 style="height: 250px; object-fit: cover;"
+                 alt="Serum">
+
+
+            <div class="card-body text-center">
+
+                <h5 class="card-title">Serum</h5>
+
+                <p class="card-text">
+                    Lightweight serum for a healthy glowing skin.
+                </p>
+
+                <button type="button"
+                        class="btn btn-primary"
+                        data-bs-toggle="modal"
+                        data-bs-target="#serumModal">
+                    Explore
+                </button>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- Serum Modal -->
+
+    <div class="modal fade" id="serumModal" tabindex="-1">
+
+        <div class="modal-dialog">
+
+            <div class="modal-content">
+
+                <div class="modal-header">
+
+                    <h5 class="modal-title">Serum</h5>
+
+                    <button type="button"
+                            class="btn-close"
+                            data-bs-dismiss="modal">
+                    </button>
+
+                </div>
+
+                <div class="modal-body">
+
+                    <img src="serum.jpg"
+                         class="img-fluid"
+                         alt="Serum">
+                                 <h5 class="mt-3">₹499</h5>
+
+                    <p class="mt-3">
+                        Lightweight serum that helps keep your skin
+                        fresh, smooth and glowing.
+                    </p>
+
+                </div>
+
+                <div class="modal-footer">
+
+                    <button type="button"
+                            class="btn btn-secondary"
+                            data-bs-dismiss="modal">
+                        Close
+                    </button>
+
+                    <button type="button"
+                            class="btn btn-primary">
+                        Buy Now
+                    </button>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+    <!-- Moisturizer -->
+    <div class="col-3 d-flex justify-content-center">
+
+        <div class="card" style="width: 18rem;">
+
+            <img src="moisturizer.jpg"
+                 class="card-img-top"
+                 style="height: 250px; object-fit: cover;"
+                 alt="Moisturizer">
+
+            <div class="card-body text-center">
+
+                <h5 class="card-title">Moisturizer</h5>
+
+                <p class="card-text">
+                    Hydrate your skin and keep it soft and smooth.
+                </p>
+
+                <button type="button"
+                        class="btn btn-primary"
+                        data-bs-toggle="modal"
+                        data-bs-target="#moisturizerModal">
+                    Explore
+                </button>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- Moisturizer Modal -->
+
+    <div class="modal fade" id="moisturizerModal" tabindex="-1">
+
+        <div class="modal-dialog ">
+
+            <div class="modal-content">
+
+                <div class="modal-header">
+
+                    <h5 class="modal-title">Moisturizer</h5>
+
+                    <button type="button"
+                            class="btn-close"
+                            data-bs-dismiss="modal">
+                    </button>
+
+                </div>
+
+                <div class="modal-body">
+
+                    <img src="moisturizer.jpg"
+                         class="img-fluid"
+                         alt="Moisturizer">
+                                 <h5 class="mt-3">₹349</h5>
+
+                    <p class="mt-3">
+                        Hydrating moisturizer that helps keep your
+                        skin soft, smooth and comfortable.
+                    </p>
+
+                </div>
+
+                <div class="modal-footer">
+
+                    <button type="button"
+                            class="btn btn-secondary"
+                            data-bs-dismiss="modal">
+                        Close
+                    </button>
+
+                    <button type="button"
+                            class="btn btn-primary">
+                        Buy Now
+                    </button>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+    <!-- Sunscreen -->
+    <div class="col-3 d-flex justify-content-center">
+
+        <div class="card" style="width: 18rem;">
+
+            <img src="sunscreen.jpg"
+                 class="card-img-top"
+                 style="height: 250px; object-fit: cover;"
+                 alt="Sunscreen">
+
+            <div class="card-body text-center">
+
+                <h5 class="card-title">Sunscreen</h5>
+
+                <p class="card-text">
+                    Everyday sun protection for healthy-looking skin.
+                </p>
+
+                <button type="button"
+                        class="btn btn-primary"
+                        data-bs-toggle="modal"
+                        data-bs-target="#sunscreenModal">
+                    Explore
+                </button>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- Sunscreen Modal -->
+
+    <div class="modal fade" id="sunscreenModal" tabindex="-1">
+
+        <div class="modal-dialog">
+
+            <div class="modal-content">
+
+                <div class="modal-header">
+
+                    <h5 class="modal-title">Sunscreen</h5>
+
+                    <button type="button"
+                            class="btn-close"
+                            data-bs-dismiss="modal">
+                    </button>
+
+                </div>
+
+                <div class="modal-body">
+
+                    <img src="sunscreen.jpg"
+                         class="img-fluid"
+                         alt="Sunscreen">
+                                 <h5 class="mt-3">₹399</h5>
+
+                    <p class="mt-3">
+                        Everyday sunscreen to help protect your
+                        skin from harmful sun exposure.
+                    </p>
+
+                </div>
+
+                <div class="modal-footer">
+
+                    <button type="button"
+                            class="btn btn-secondary"
+                            data-bs-dismiss="modal">
+                        Close
+                    </button>
+
+                    <button type="button"
+                            class="btn btn-primary">
+                        Buy Now
+                    </button>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+<!-- ##MAKEUP -->
+
+<div class="container-fluid" id="makeup">
+    <div class="row p-5">
+
+        <div class="col-12 text-center">
+            <h1>Makeup</h1>
+            <p>
+                Discover beauty essentials to enhance your natural look.
+            </p>
+        </div>
+
+    </div>
+</div>
+
+
+<div class="row p-4">
+
+    <!-- Foundation -->
+    <div class="col-3 d-flex justify-content-center">
+        <div class="card" style="width: 18rem;">
+
+            <img src="foundation.jpg"
+                 class="card-img-top"
+                 style="height: 250px; object-fit: cover;"
+                 alt="Foundation">
+
+            <div class="card-body text-center">
+
+                <h5 class="card-title">Foundation</h5>
+
+                <p class="card-text">
+                    Smooth and even coverage for a natural-looking finish.
+                </p>
+
+                <button type="button"
+                        class="btn btn-primary"
+                        data-bs-toggle="modal"
+                        data-bs-target="#foundationModal">
+                    Explore
+                </button>
+
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Foundation Modal -->
+    <div class="modal fade" id="foundationModal" tabindex="-1">
+
+        <div class="modal-dialog">
+
+            <div class="modal-content">
+
+                <div class="modal-header">
+                    <h5 class="modal-title">Foundation</h5>
+
+                    <button type="button"
+                            class="btn-close"
+                            data-bs-dismiss="modal">
+                    </button>
+                </div>
+
+                <div class="modal-body">
+
+                    <img src="foundation.jpg"
+                         class="img-fluid"
+                         alt="Foundation">
+
+                    <h5 class="mt-3">₹599</h5>
+
+                    <p>
+                        Smooth and even coverage that gives your skin
+                        a natural-looking finish.
+                    </p>
+
+                </div>
+
+                <div class="modal-footer">
+
+                    <button type="button"
+                            class="btn btn-secondary"
+                            data-bs-dismiss="modal">
+                        Close
+                    </button>
+
+                    <button type="button"
+                            class="btn btn-primary">
+                        Buy Now
+                    </button>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Lipstick -->
+    <div class="col-3 d-flex justify-content-center">
+        <div class="card" style="width: 18rem;">
+
+            <img src="lipstick.jpg"
+                 class="card-img-top"
+                 style="height: 250px; object-fit: cover;"
+                 alt="Lipstick">
+
+            <div class="card-body text-center">
+
+                <h5 class="card-title">Lipstick</h5>
+
+                <p class="card-text">
+                    Add a beautiful touch of color to your lips.
+                </p>
+
+                <button type="button"
+                        class="btn btn-primary"
+                        data-bs-toggle="modal"
+                        data-bs-target="#lipstickModal">
+                    Explore
+                </button>
+
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Lipstick Modal -->
+    <div class="modal fade" id="lipstickModal" tabindex="-1">
+
+        <div class="modal-dialog">
+
+            <div class="modal-content">
+
+                <div class="modal-header">
+                    <h5 class="modal-title">Lipstick</h5>
+
+                    <button type="button"
+                            class="btn-close"
+                            data-bs-dismiss="modal">
+                    </button>
+                </div>
+
+                <div class="modal-body">
+
+                    <img src="lipstick.jpg"
+                         class="img-fluid"
+                         alt="Lipstick">
+
+                    <h5 class="mt-3">₹399</h5>
+
+                    <p>
+                        Beautiful lip color that adds a stylish
+                        and attractive touch to your look.
+                    </p>
+
+                </div>
+
+                <div class="modal-footer">
+
+                    <button type="button"
+                            class="btn btn-secondary"
+                            data-bs-dismiss="modal">
+                        Close
+                    </button>
+
+                    <button type="button"
+                            class="btn btn-primary">
+                        Buy Now
+                    </button>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Blush -->
+    <div class="col-3 d-flex justify-content-center">
+        <div class="card" style="width: 18rem;">
+
+            <img src="blush.jpg"
+                 class="card-img-top"
+                 style="height: 250px; object-fit: cover;"
+                 alt="Blush">
+
+            <div class="card-body text-center">
+
+                <h5 class="card-title">Blush</h5>
+
+                <p class="card-text">
+                    Give your cheeks a natural and healthy glow.
+                </p>
+
+                <button type="button"
+                        class="btn btn-primary"
+                        data-bs-toggle="modal"
+                        data-bs-target="#blushModal">
+                    Explore
+                </button>
+
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Blush Modal -->
+    <div class="modal fade" id="blushModal" tabindex="-1">
+
+        <div class="modal-dialog">
+
+            <div class="modal-content">
+
+                <div class="modal-header">
+                    <h5 class="modal-title">Blush</h5>
+
+                    <button type="button"
+                            class="btn-close"
+                            data-bs-dismiss="modal">
+                    </button>
+                </div>
+
+                <div class="modal-body">
+
+                    <img src="blush.jpg"
+                         class="img-fluid"
+                         alt="Blush">
+
+                    <h5 class="mt-3">₹349</h5>
+
+                    <p>
+                        A soft blush that gives your cheeks
+                        a fresh and natural-looking glow.
+                    </p>
+
+                </div>
+
+                <div class="modal-footer">
+
+                    <button type="button"
+                            class="btn btn-secondary"
+                            data-bs-dismiss="modal">
+                        Close
+                    </button>
+
+                    <button type="button"
+                            class="btn btn-primary">
+                        Buy Now
+                    </button>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Mascara -->
+    <div class="col-3 d-flex justify-content-center">
+        <div class="card" style="width: 18rem;">
+
+            <img src="mascara.jpg"
+                 class="card-img-top"
+                 style="height: 250px; object-fit: cover;"
+                 alt="Mascara">
+
+            <div class="card-body text-center">
+
+                <h5 class="card-title">Mascara</h5>
+
+                <p class="card-text">
+                    Define your lashes for a bold and beautiful look.
+                </p>
+
+                <button type="button"
+                        class="btn btn-primary"
+                        data-bs-toggle="modal"
+                        data-bs-target="#mascaraModal">
+                    Explore
+                </button>
+
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Mascara Modal -->
+    <div class="modal fade" id="mascaraModal" tabindex="-1">
+
+        <div class="modal-dialog">
+
+            <div class="modal-content">
+
+                <div class="modal-header">
+                    <h5 class="modal-title">Mascara</h5>
+
+                    <button type="button"
+                            class="btn-close"
+                            data-bs-dismiss="modal">
+                    </button>
+                </div>
+
+                <div class="modal-body">
+
+                    <img src="mascara.jpg"
+                         class="img-fluid"
+                         alt="Mascara">
+
+                    <h5 class="mt-3">₹449</h5>
+
+                    <p>
+                        Mascara that helps define and enhance
+                        your lashes for a bold look.
+                    </p>
+
+                </div>
+
+                <div class="modal-footer">
+
+                    <button type="button"
+                            class="btn btn-secondary"
+                            data-bs-dismiss="modal">
+                        Close
+                    </button>
+
+                    <button type="button"
+                            class="btn btn-primary">
+                        Buy Now
+                    </button>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+</div>
+<!-- ##BEAUTY TIPS -->
+
+<div class="container-fluid" id="beautytips">
+
+    <div class="row p-5">
+
+        <div class="col-12 text-center">
+
+            <h1>Beauty Tips</h1>
+
+            <p>
+                Simple tips to help you look and feel your best every day.
+            </p>
+
+        </div>
+
+    </div>
+
+</div>
+
+
+<!-- ##BEAUTY TIPS CARDS -->
+
+<div class="row p-5">
+
+
+    <!-- Skincare Routine -->
+
+    <div class="col-4 d-flex justify-content-center">
+
+        <div class="card" style="width: 18rem;">
+
+            <img src="makeuptips.jpg"
+                 class="card-img-top"
+                 style="height: 250px; object-fit: cover;"
+                 alt="Skincare Routine">
+
+            <div class="card-body text-center">
+
+                <h5 class="card-title">Skincare Routine</h5>
+
+                <p class="card-text">
+                    Follow a simple daily routine for clean and healthy-looking skin.
+                </p>
+
+                <button type="button"
+                        class="btn btn-primary"
+                        data-bs-toggle="modal"
+                        data-bs-target="#skincareTipsModal">
+                    Read More
+                </button>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- Skincare Routine Modal -->
+
+    <div class="modal fade" id="skincareTipsModal" tabindex="-1">
+
+        <div class="modal-dialog">
+
+            <div class="modal-content">
+
+                <div class="modal-header">
+
+                    <h5 class="modal-title">
+                        Skincare Routine
+                    </h5>
+
+                    <button type="button"
+                            class="btn-close"
+                            data-bs-dismiss="modal">
+                    </button>
+
+                </div>
+
+                <div class="modal-body">
+
+                    <img src="makeuptips.jpg"
+                         class="img-fluid"
+                         alt="Skincare Routine">
+
+                    <p class="mt-3">
+                        Start with a gentle cleanser, followed by serum
+                        and moisturizer. During the daytime, always use sunscreen.
+                    </p>
+
+                </div>
+
+                <div class="modal-footer">
+
+                    <button type="button"
+                            class="btn btn-secondary"
+                            data-bs-dismiss="modal">
+                        Close
+                    </button>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+    <!-- Makeup Tips -->
+
+    <div class="col-4 d-flex justify-content-center">
+
+        <div class="card" style="width: 18rem;">
+
+            <img src="makeuptips2.jpg"
+                 class="card-img-top"
+                 style="height: 250px; object-fit: cover;"
+                 alt="Makeup Tips">
+
+            <div class="card-body text-center">
+
+                <h5 class="card-title">Makeup Tips</h5>
+
+                <p class="card-text">
+                    Learn simple makeup tips for an easy and beautiful everyday look.
+                </p>
+
+                <button type="button"
+                        class="btn btn-primary"
+                        data-bs-toggle="modal"
+                        data-bs-target="#makeupTipsModal">
+                    Read More
+                </button>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- Makeup Tips Modal -->
+
+    <div class="modal fade" id="makeupTipsModal" tabindex="-1">
+
+        <div class="modal-dialog">
+
+            <div class="modal-content">
+
+                <div class="modal-header">
+
+                    <h5 class="modal-title">
+                        Makeup Tips
+                    </h5>
+
+                    <button type="button"
+                            class="btn-close"
+                            data-bs-dismiss="modal">
+                    </button>
+
+                </div>
+
+                <div class="modal-body">
+
+                    <img src="makeuptips2.jpg"
+                         class="img-fluid"
+                         alt="Makeup Tips">
+
+                    <p class="mt-3">
+                        Start with a good base, use makeup products
+                        lightly, and blend well for a smooth everyday look.
+                    </p>
+
+                </div>
+
+                <div class="modal-footer">
+
+                    <button type="button"
+                            class="btn btn-secondary"
+                            data-bs-dismiss="modal">
+                        Close
+                    </button>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+    <!-- Glow Naturally -->
+
+    <div class="col-4 d-flex justify-content-center">
+
+        <div class="card" style="width: 18rem;">
+
+            <img src="glownaturally.jpg"
+                 class="card-img-top"
+                 style="height: 250px; object-fit: cover;"
+                 alt="Natural Glow">
+
+            <div class="card-body text-center">
+
+                <h5 class="card-title">Glow Naturally</h5>
+
+                <p class="card-text">
+                    Simple healthy habits that help you maintain a natural glow.
+                </p>
+
+                <button type="button"
+                        class="btn btn-primary"
+                        data-bs-toggle="modal"
+                        data-bs-target="#glowModal">
+                    Read More
+                </button>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- Glow Naturally Modal -->
+
+    <div class="modal fade" id="glowModal" tabindex="-1">
+
+        <div class="modal-dialog">
+
+            <div class="modal-content">
+
+                <div class="modal-header">
+
+                    <h5 class="modal-title">
+                        Glow Naturally
+                    </h5>
+
+                    <button type="button"
+                            class="btn-close"
+                            data-bs-dismiss="modal">
+                    </button>
+
+                </div>
+
+                <div class="modal-body">
+
+                    <img src="glownaturally.jpg"
+                         class="img-fluid"
+                         alt="Natural Glow">
+
+                    <p class="mt-3">
+                        Stay hydrated, eat healthy foods, get enough rest,
+                        and follow a simple skincare routine for a natural glow.
+                    </p>
+
+                </div>
+
+                <div class="modal-footer">
+
+                    <button type="button"
+                            class="btn btn-secondary"
+                            data-bs-dismiss="modal">
+                        Close
+                    </button>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+<!-- BEAUTY FAQ ACCORDION -->
+
+<div class="container my-5">
+
+    <div class="text-center mb-4">
+        <h1>Beauty FAQs</h1>
+        <p>Find answers to some common beauty questions.</p>
+    </div>
+
+    <div class="accordion" id="accordionExample">
+
+        <!-- FAQ 1 -->
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="headingOne">
+                <button class="accordion-button"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#collapseOne"
+                        aria-expanded="true"
+                        aria-controls="collapseOne">
+                    How often should I use a cleanser?
+                </button>
+            </h2>
+
+            <div id="collapseOne"
+                 class="accordion-collapse collapse show"
+                 aria-labelledby="headingOne"
+                 data-bs-parent="#accordionExample">
+
+                <div class="accordion-body">
+                    A cleanser can usually be used twice a day,
+                    once in the morning and once at night.
+                </div>
+
+            </div>
+        </div>
+
+
+        <!-- FAQ 2 -->
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="headingTwo">
+                <button class="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#collapseTwo"
+                        aria-expanded="false"
+                        aria-controls="collapseTwo">
+                    Why is sunscreen important?
+                </button>
+            </h2>
+
+            <div id="collapseTwo"
+                 class="accordion-collapse collapse"
+                 aria-labelledby="headingTwo"
+                 data-bs-parent="#accordionExample">
+
+                <div class="accordion-body">
+                    Sunscreen helps protect your skin from harmful
+                    UV rays and should be used during the daytime.
+                </div>
+
+            </div>
+        </div>
+
+
+        <!-- FAQ 3 -->
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="headingThree">
+                <button class="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#collapseThree"
+                        aria-expanded="false"
+                        aria-controls="collapseThree">
+                    Can I use serum every day?
+                </button>
+            </h2>
+
+            <div id="collapseThree"
+                 class="accordion-collapse collapse"
+                 aria-labelledby="headingThree"
+                 data-bs-parent="#accordionExample">
+
+                <div class="accordion-body">
+                    Yes, many serums can be used daily.
+                    However, the frequency depends on the type of serum.
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+</div>
+
+
+<!-- ## ABOUT -->
+
+<div id="about"
+     class="container-fluid p-5"
+     style="background-image: url('about.jpg');
+            background-size: cover;
+            background-position: center;
+            min-height: 550px;">
+
+    <div class="row justify-content-center align-items-center"
+         style="min-height: 450px;">
+
+        <div class="col-md-10">
+
+            <!-- ABOUT CONTENT -->
+
+            <div class="card text-center shadow"
+                 style="background-color: rgba(255,255,255,0.40);
+                        border: none;
+                        border-radius: 20px;">
+
+                <div class="card-body p-5">
+
+                    <h6>ABOUT GLOWE</h6>
+
+                    <h1 class="card-title mt-2">
+                        Beauty, Your Way.
+                    </h1>
+
+                    <p class="card-text lead mt-3">
+                        GLOWE is a beauty space that brings skincare,
+                        makeup and everyday beauty together in a simple
+                        and enjoyable way. We believe beauty is about
+                        caring for your skin, expressing yourself and
+                        feeling confident in your own way.
+                    </p>
+
+
+                    <!-- GLOWE VALUES -->
+
+                    <div class="row justify-content-center mt-4">
+
+                        <!-- SKIN -->
+
+                        <div class="col-md-3 mb-3">
+
+                            <div class="card h-100">
+
+                                <div class="card-body">
+
+                                    <h5 class="card-title">
+                                        SKIN
+                                    </h5>
+
+                                    <p class="card-text">
+                                        Care for your skin
+                                        and keep it healthy.
+                                    </p>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+
+                        <!-- BEAUTY -->
+
+                        <div class="col-md-3 mb-3">
+
+                            <div class="card h-100">
+
+                                <div class="card-body">
+
+                                    <h5 class="card-title">
+                                        BEAUTY
+                                    </h5>
+
+                                    <p class="card-text">
+                                        Express your style
+                                        and personality.
+                                    </p>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+
+                        <!-- GLOW -->
+
+                        <div class="col-md-3 mb-3">
+
+                            <div class="card h-100">
+
+                                <div class="card-body">
+
+                                    <h5 class="card-title">
+                                        GLOW
+                                    </h5>
+
+                                    <p class="card-text">
+                                        Feel confident and
+                                        comfortable in yourself.
+                                    </p>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+                    <h5 class="mt-4">
+                        "Your Skin. Your Glow."
+                    </h5>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+
+
+<!-- ##CONTACT -->
+
+<div class="container my-5" id="contact">
+
+    <div class="text-center mb-4">
+
+        <h1>Contact Us</h1>
+
+        <p>
+            Have a question? We'd love to hear from you.
+        </p>
+
+    </div>
+
+
+    <div class="row justify-content-center">
+
+        <div class="col-8">
+
+            <form>
+
+                <!-- Name -->
+
+                <div class="mb-3">
+
+                    <label for="name" class="form-label">
+                     Name
+                    </label>
+
+                    <input type="text"
+                           class="form-control"
+                           id="name">
+
+                </div>
+
+
+                <!-- Email -->
+
+                <div class="mb-3">
+
+                    <label for="email" class="form-label">
+                        Email 
+                    </label>
+
+                    <input type="email"
+                           class="form-control"
+                           id="email"
+                           >
+
+                </div>
+
+
+                <!-- Message -->
+
+                <div class="mb-3">
+
+                    <label for="message" class="form-label">
+                        Message
+                    </label>
+
+                    <textarea class="form-control"
+                              id="message"
+                              rows="3"
+                            ></textarea>
+
+                </div>
+
+
+                <!-- Button -->
+
+                <button type="submit"
+                        class="btn btn-dark">
+                    Send Message
+                </button>
+
+            </form>
+
+        </div>
+
+    </div>
+
+</div>
+
+</body>
+</html>
